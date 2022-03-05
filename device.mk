@@ -6,3 +6,7 @@
 #
 
 LOCAL_PATH := device/oppo/OP4ED5
+
+PRODUCT_PACKAGES += fastbootd
+
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
